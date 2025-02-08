@@ -211,7 +211,7 @@ pub fn solve_p2() -> i64 {
         }
 
         let fb = format!(
-            "[Frame {:4.} (+={})] \t\t [{}]{} \t\t\t {} \n{}",
+            "[Frame {:4} (+={})] \t\t [{}]{} \t\t\t {} \n{}",
             frame,
             skip_frames,
             if paused { "PAUSED" } else { "RUNNING" },
